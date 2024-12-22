@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F6D6D6;
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+}
+
+*{
+    font-family: "Indie Flower", cursive;
+    font-style: normal;
+}
+
+.toDoList{
+    color: #AE445A;
+    font-size: 50px;
+}
+
+.inputDiv{
+    position: relative;
+    top: -2rem;
+}
+
+.input{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 10px 10px 10px 10px;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+.button{
+    width: 4rem;
+    height: 2.7rem;
+    border-radius: 10px 10px 10px 10px;
+    border-color: transparent;
+    background-color: #AE445A;
+    color: white;
+    font-weight: bold;
+}
+
+.contentDiv{
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    margin-top: 0.5rem;
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    top: -2rem;
+    font-size: 25px;
+}
+
+.deleteButton{
+    width: 5rem;
+    height: 2.2rem;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    border-color: transparent;
+    background-color: #AE445A;
+    color: white;
+    float: right;
+    margin-right: 1rem;
+    cursor: pointer; 
+}
+
+.finishButton{
+    width: 4rem;
+    height: 2.2rem;
+    display: inline-block;
+    border-radius: 10px 10px 10px 10px;
+    border-color: transparent;
+    background-color: #F6D6D6;
+    color: white;
+    float: right;
+    margin-right: 1rem;
+    cursor: pointer; 
+}
+.deneme{
+    text-decoration: line-through;
+}
